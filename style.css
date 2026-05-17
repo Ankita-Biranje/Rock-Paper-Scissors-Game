@@ -30,21 +30,16 @@ body {
     gap: 20px;
 }
 
-.option1,
-.option2,
-.option3 {
+.option{
     height: 130px;
     width: auto;
     border-radius: 50%;
     padding: 8px;
 }
 
-.option1:hover,
-.option2:hover,
-.option3:hover {
+.option:hover{
     cursor: pointer;
     background-color: rgb(3, 3, 41);
-
 }
 
 img {
@@ -53,7 +48,7 @@ img {
     border-radius: 50%;
 }
 
-.score {
+.gamescore {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,8 +67,26 @@ img {
 
 }
 
-#msg {
+.msg_para {
     background-color: rgb(3, 3, 41);
+    font-size: 35px;
+    border-radius: 30px;
+    color: white;
+    padding: 15px;
+    display: inline;
+}
+
+.userMsg{
+   background-color: green;
+    font-size: 35px;
+    border-radius: 30px;
+    color: white;
+    padding: 15px;
+    display: inline;
+}
+
+.compMsg{
+   background-color: red;
     font-size: 35px;
     border-radius: 30px;
     color: white;
